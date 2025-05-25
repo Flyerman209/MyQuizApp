@@ -8,7 +8,7 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-#
+
 ext {
     ext.kotlin_version = '1.5.31'
     activityVersion = '1.4.0'
